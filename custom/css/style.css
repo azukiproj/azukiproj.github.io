@@ -1,4 +1,4 @@
-#test {
+#button-div {
     width: 35rem;
     position: absolute;
 
@@ -8,4 +8,13 @@
     margin-left: auto;
 
     margin-top: 37vh;
+}
+
+@media (max-width: 670px) {
+    #button-div {
+        width: 90vw;
+    }
+    .custom-btn {
+        width: 6rem;
+    }
 }
